@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "demo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "block_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestemp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "Sender",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"gloableVars.sol": "GoloabaVariables"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"gloableVars.sol": {
+			"keccak256": "0x218d155fb93788f66d39c29e41dd28b34f0b206ee56124200c484e0246a1eb77",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://21eca2613b4004e926251a53c926cefad68c26bf9ce69806101a146c1eca3439",
+				"dweb:/ipfs/QmQF6Th9onqAXxE74t9SzoPc2nY9N3zJWTjcRKbYWMp5dW"
+			]
+		}
+	},
+	"version": 1
+}

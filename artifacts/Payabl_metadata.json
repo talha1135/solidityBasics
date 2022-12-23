@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "demo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "block_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestemp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "Sender",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"payable.sol": "Payabl"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"payable.sol": {
+			"keccak256": "0x824d599ca3defc5717906f739cdcebd2fe9d4ae9dee2b82b2772e22f63fa7a5c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1010030596ba6813211bf35e3dd9680e97c3b6ce8bed36b55bc86ef0f847b479",
+				"dweb:/ipfs/QmWC1tGFHVN7E13MucNE8z3q4jGjszoCsMeAhhMRA2oPR9"
+			]
+		}
+	},
+	"version": 1
+}

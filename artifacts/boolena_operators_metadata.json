@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					}
+				],
+				"name": "checkValue",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"boolean_check.sol": "boolena_operators"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"boolean_check.sol": {
+			"keccak256": "0xff5ce3c25b7929d56dd911254d5c86cbf3e4320bef8661fd81da02261e6c360f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://de16748be7310a85dda0b57fd9b3049a5975c97300a374fbb8c1b51d7f0395c5",
+				"dweb:/ipfs/QmaGPo5NXDPksvPAss1RCLdgYB73bPj6HaLyDnyAuxhXaj"
+			]
+		}
+	},
+	"version": 1
+}
